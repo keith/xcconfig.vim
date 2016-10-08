@@ -8,3 +8,4 @@
 " examples.
 "
 setlocal iskeyword+=@-@,#,?
+setlocal commentstring=//\ %s
