@@ -14,7 +14,7 @@ highlight default link xcconfigBooleans Boolean
 
 " Numbers
 syntax match xcconfigNumber "\v<\d+>"
-syntax match xcconfigNumber "\v<\d+\.\d+>"
+syntax match xcconfigNumber "\v<\v\d+[[:digit:]\.]+\d+>"
 highlight default link xcconfigNumber Number
 
 " Various special keywords that deserve custom highlighting
