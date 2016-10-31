@@ -19,6 +19,8 @@ highlight default link xcconfigNumber Number
 
 " Various special keywords that deserve custom highlighting
 syntax keyword xcconfigAttributes
+      \ @executable_path
+      \ @loader_path
       \ @rpath
       \ inherited
 highlight default link xcconfigAttributes PreProc
